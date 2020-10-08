@@ -25,6 +25,7 @@ public class CustomerController {
 	
 	
 	public CustomerController() {
+		//data awal untuk list customer
 		listCustomer.add(new Customer(1 ,"kevin", "MALE" ,"tangerang" ,"kevin@gmail.com" , "12345" , "True"));
 		listCustomer.add(new Customer(2 ,"kevina", "FEMALE" ,"tangerang" ,"kevin@gmail.com" , "12345" , "False"));
 		listCustomer.add(new Customer(3 ,"kevinb", "MALE" ,"tangerang" ,"kevin@gmail.com" , "12345" , "True"));
